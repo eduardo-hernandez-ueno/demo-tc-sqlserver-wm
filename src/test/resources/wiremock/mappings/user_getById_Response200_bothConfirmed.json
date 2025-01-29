@@ -1,0 +1,14 @@
+{
+  "request": {
+    "urlPathPattern": "/users/1",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "user_getById_Response200_bothConfirmed.json",
+    "transformers": ["response-template"]
+  }
+}

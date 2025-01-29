@@ -1,0 +1,9 @@
+spring:
+  sql:
+    init:
+      mode: always
+  jpa:
+    hibernate:
+      ddl-auto: none
+  datasource:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
